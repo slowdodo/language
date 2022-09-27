@@ -89,3 +89,34 @@ print(message)
 |Double ( = Float64)|실수형 타입 : 소수점 아래 15~16자리 정확도|	2.225073858507201e-308 ~ 1.797693134862316e+308|
 |Char|하나의 문자만을 저장|x|
 |String|( 여러개의 문자 ) 저장|x|
+
+```swift
+// 정수형 
+Int.min
+Int.max
+Int8.min
+Int8.max
+Int16.min
+Int16.max
+Int32.min
+Int32.max
+Int64.min
+Int64.max
+
+UInt.min
+UInt.max
+UInt8.min
+UInt8.max
+UInt16.min
+UInt16.max
+UInt32.min
+UInt32.max
+UInt64.min
+UInt64.max
+
+//실수형
+Float.leastNormalMagnitude
+Float.greatestFiniteMagnitude
+Double.leastNormalMagnitude
+Double.greatestFiniteMagnitude
+```
