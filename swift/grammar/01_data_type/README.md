@@ -70,6 +70,14 @@ var message = "\(userName)의 나이는 \(age)입니다."
 print(message) 
 ```
 
+# Any 
+* AnyObject(protocol)
+    * AnyObject can represent an instance of any class type.
+    * 범용 타입
+    * 상속관계가 아니라도 `타입 캐스팅` 가능한 타입
+    * 어떤 클래스의 객체도 저장 가능
+    * 가장 추상화된 최상위 개념(Objective-C의 id)
+    * 클래스만 허용하며 `구조체나 열거형은 허용하지 않는다.`
 # 표
 
 |타입|	특징|	값의 범위|
