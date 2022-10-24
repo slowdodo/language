@@ -21,6 +21,7 @@ print(resultSet)
 // 옵셔널 타입
 let optionalInt: Int? = 3
 let resultInt: Int? = optionalInt.map { $0 * 2 }
+print(optionalInt!)
 print(optionalInt)
 
 // range 타입

@@ -1,5 +1,9 @@
 func add(x: Int,y: Int) -> Int  {       
-       return(x+y)
+  print(#function)
+  return(x+y)
 }
 let a = add(x:1, y:2)
-pinrt(a)
+print(a)
+
+// add(x:y:)
+// 3

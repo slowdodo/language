@@ -14,3 +14,12 @@ else {
   print("nil")
 }
 
+var x1 : Int?
+if var xx = x1 { //옵셔널 변수 x1이 값이 없어서 if문의 조건이 거짓이 되어 if문 실행하지 않고 else로 감
+  print(xx)
+} 
+else {
+  print("nil")
+}
+
+
