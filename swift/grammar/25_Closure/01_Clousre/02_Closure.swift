@@ -1,13 +1,13 @@
-let Length = {(r: Float16 ) -> Float16 in
+let Length = {(r: Float ) -> Float in
     return r * 2 * 3.14
 }
 var result = Length(0)
 
-let Squre = {(r: Float16 ) -> Float16 in 
+let Squre = {(r: Float ) -> Float in 
     return r * r * 3.14
 }
 
-func Circle_Math(r: Float16, cal:(Float16) -> Float16) -> Float16{
+func Circle_Math(r: Float, cal:(Float) -> Float) -> Float{
     return cal(r)
 }
 
