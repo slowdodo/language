@@ -1,4 +1,3 @@
-#
 
 * Property
     * Static Property
