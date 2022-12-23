@@ -1,6 +1,5 @@
-
-* Property
-    * Static Property
-    * Compute Property
-    * Override Property
-    * default property
+* public: 접근 제한이 없는 경우입니다. 어디서든 접근이 가능합니다.
+* internal: 같은 모듈(프로젝트 파일) 안에서만 접근이 가능합니다.
+* fileprivate: 같은 파일 안에서만 접근이 가능합니다.
+* private: 같은 소스 파일 안에서만 접근이 가능합니다.
+* open: 정의한 모듈을 가져오는 다른 모듈의 소스에서도 사용이 가능하다. 클래스 , 클래스 맴버에서도 사용 가능
